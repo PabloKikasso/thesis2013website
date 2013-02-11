@@ -1,0 +1,43 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+	body{
+		background: red;
+	}
+}
+/* regular desktop */
+@media (min-width: 980px) and (max-width: 1199px) {
+		
+	body{
+		background: yellow;
+	}
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+	
+	body{
+		background: green;
+	}
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+		
+	body{
+		background: pink;
+	}
+
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+	body{
+		background: brown;
+	}	
+}
+
