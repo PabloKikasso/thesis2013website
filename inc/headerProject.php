@@ -22,14 +22,17 @@
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
         <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/media.css">        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        <link rel="stylesheet" href="css/media.css">
+        <?php include ('inc/sliderStyles.php'); ?>
+
+
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
         </head>
         <body>
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
-        <div class="hero"></div>
-<div class="full-header below-hero">      
+<div class="full-header">      
 	<header class="globalHeader">
 		<div class="container">
 			<div class="navbar">
@@ -70,23 +73,16 @@
 				<div class="span12 toggle">+</div>
 			</div>
 			<div class="row togglebox">
-				<div class="span3">Content</div>
+				<div class="span3"><h3>Category</h3></div>
 				<div class="span3 categories">
-					<h3>Categories</h3>
-					<ul>
-						<li>Participatory Networks</li>
-						<li>Dynamic Interfaces</li>
-					</ul>
+					<h3>Tags</h3>
 				</div>
 				<div class="span3 categories">
-					<h3>&nbsp;</h3>
-					<ul>
-						<li>Participatory Networks</li>
-						<li>Dynamic Interfaces</li>
-					</ul>
+					<h3>Exhibition</h3>
+					<h3>Symposium</h3>
 				</div>
 				<div class="span3">
-					<h3>Top Tags</h3>
+					<h3>More Info</h3>
 					<ul>
 						<li>Participatory Networks</li>
 						<li>Dynamic Interfaces</li>
@@ -96,4 +92,3 @@
 		</div>
 	</div>
 </div>
-<div class="projects"></div>

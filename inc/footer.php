@@ -5,7 +5,11 @@
         <script src="js/vendor/bootstrap.min.js"></script>
         <script src="js/main.js"></script>
         <script src="js/plugins.js"></script>
+        <script src="js/scripts.js"></script>
        
+        <!-- ROYAL SLIDER JS -->
+        <script class="rs-file" src="assets/royalslider/jquery.royalslider.min.js"></script>
+        
 
         <script>
             var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
