@@ -20,7 +20,7 @@
             */
         </style>
         <link rel="stylesheet" href="css/bootstrap.css">
-        <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+        <!-- <link rel="stylesheet" href="css/bootstrap-responsive.min.css"> removing this because I'm editing the bootstap CSS -->
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/media.css">        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
         </head>
@@ -65,32 +65,48 @@
 		</div><!--END CONTAINER -->
 	</header>
 	<section class="secondaryNav">
-		<div class="container">
+		<div class="container header">
 			<div class="row">
 				<div class="span12 toggle">+</div>
 			</div>
 			<div class="row togglebox">
-				<div class="span3">Content</div>
-				<div class="span3 categories">
+				<div class="span3 page-name-col">
+					<h2>Projects</h2>
+					<p>86 total</p>
+				</div>
+				
+				<div class="span3 category-col">
 					<h3>Categories</h3>
 					<ul>
-						<li>Participatory Networks</li>
-						<li>Dynamic Interfaces</li>
+						<li class="cat"><a href="#">Name of a Category</a></li>
+						<li class="cat"><a href="#">Category Name</a></li>
+						<li class="cat"><a href="#">Name of a Category</a></li>
+						<li class="cat"><a href="#">Category Name</a></li>
+						<li class="cat"><a href="#">Name of a Category</a></li>
 					</ul>
 				</div>
-				<div class="span3 categories">
+				<div class="span3 category-col">
 					<h3>&nbsp;</h3>
 					<ul>
-						<li>Participatory Networks</li>
-						<li>Dynamic Interfaces</li>
+						<li class="cat"><a href="#">Name of a Category</a></li>
+						<li class="cat"><a href="#">Category Name</a></li>
+						<li class="cat"><a href="#">Name of a Category</a></li>
+						<li class="cat"><a href="#">Category Name</a></li>
 					</ul>
 				</div>
-				<div class="span3">
+				<div class="span3 tag-col">
 					<h3>Top Tags</h3>
 					<ul>
-						<li>Participatory Networks</li>
-						<li>Dynamic Interfaces</li>
+						<li class="tag"><a href="#">Tag name</a></li>
+						<li class="tag"><a href="#">Another tag</a></li>
+						<li class="tag"><a href="#">Tag name</a></li>
+						<li class="tag"><a href="#">Another tag</a></li>
+						<li class="tag"><a href="#">Tag name</a></li>
+						<li class="tag"><a href="#">Another tag</a></li>
 					</ul>
+				</div>
+				<div class="project-picker-btn">
+					<button type="button">Project Picker</button>
 				</div>
 			</div>
 		</div>

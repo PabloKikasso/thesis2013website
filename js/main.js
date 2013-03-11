@@ -1,10 +1,10 @@
-$(document).ready(function(){
+/*$(document).ready(function(){
 	
 	console.log('Hello THESIS!');
 	
 	$('.toggle').click(function(){
 		$('.togglebox').slideToggle(200);
-	})
+	}) 
 		
 	
 });
@@ -48,4 +48,5 @@ jQuery(document).ready(function ($) {
     
 });
 
+*/
 
