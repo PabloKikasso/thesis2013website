@@ -289,7 +289,7 @@ a:focus {
 .navbar-static-top .container,
 .navbar-fixed-top .container,
 .navbar-fixed-bottom .container {
-  width: 940px;
+  width: 950px;
 }
 
 .span12 {
@@ -768,7 +768,8 @@ h1 {
 }
 
 h2 {
-  font-size: 31.5px;
+  font-size: 32px;
+  line-height: 32px;
 }
 
 h3 {
@@ -4356,7 +4357,7 @@ input[type="submit"].btn.btn-mini {
 .navbar {
   *position: relative;
   *z-index: 2;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   overflow: visible;
 }
 
@@ -4562,7 +4563,7 @@ background-color: #fafafa;
 .navbar-static-top .container,
 .navbar-fixed-top .container,
 .navbar-fixed-bottom .container {
-  width: 940px;
+  width: 950px;
 }
 
 .navbar-fixed-top {
@@ -4591,7 +4592,7 @@ background-color: #fafafa;
   left: 0;
   display: block;
   float: left;
-  margin: 0 10px 0 0;
+  margin: 55px 0 0 0;
 }
 
 .navbar .nav.pull-right {
@@ -4605,8 +4606,7 @@ background-color: #fafafa;
 
 .navbar .nav > li > a {
   float: none;
-  padding: 10px 15px 10px;
-  color: #777777;
+  padding: 10px 17px 10px;
   text-decoration: none;
   text-shadow: 0 1px 0 #ffffff;
 }
