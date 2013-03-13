@@ -1,0 +1,182 @@
+/* Reset Is Included in the Default Style Sheet Enqueued in Functions.php */
+
+/* ==========================================================================
+   DT Thesis Main Sheet Styles
+   ========================================================================== */
+ 
+ 
+ 
+ 
+/* ------------- HEADER ------------- */
+
+.container.header {
+	height: 170px;
+}
+
+.full-header{
+	position:relative;
+	z-index:1000;
+}
+
+.globalHeader{
+	border-bottom: 4px solid #000;
+	background:#fff;
+}
+
+
+/* ------------- MAIN NAV ------------- */
+ul.nav li{
+	list-style:none;
+	font-size: 18px;
+	line-height: 18px;
+	font-weight: bold;
+	margin-right: 10px;
+	display:inline;
+}
+
+ul.nav li a {
+	color: #333;
+}
+
+
+
+
+
+/* ------------- SECONDARY NAV ------------- */
+
+.secondaryNav{
+	background:#fff;
+	border-bottom: 1px solid #000;
+}
+.secondaryNav h3{ /*for sub-headers like CAT and TAGS */
+	text-transform: uppercase;
+	font-size: 12px;
+	line-height: 16px;
+	color:#999;
+	padding-bottom: 10px;
+}
+.secondaryNav ul{
+	margin-left: 0;
+}
+
+
+li.cat a {
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: bold;
+	color: #333;
+}
+
+li.tag a {
+	font-size: 12px;
+	line-height: 16px;
+	color: #333;
+}
+
+
+/* ------------- PROJECT GALLERY -------------*/
+.projectGallery{
+	height: 450px;
+	width: 100%;
+}
+#royalSlider{
+	height: 450px;
+}
+
+/* ------------- HOME PAGE HERO ------------- */
+.hero{
+	height: 800px;
+	background:#f4f4f4;
+}
+
+.is-sticky{
+	width: 100%;
+	margin: 0 auto;
+}
+.divider{
+	height: 20px;
+	border-bottom: 1px solid #000;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.projectMain{
+margin-top: 100px;	
+}
+
+.author{
+	margin-bottom: 60px;
+}
+.relatedProjects{
+	border-bottom: 4px solid #000;
+	border-top: 1px solid #000;
+}
+
+
+
+/* ------------- PROJECT LANDING PAGE: PROJECT BOX/THUMBNAIL ------------- */
+
+
+
+.projectThumb{
+	height: 180px;
+	overflow:hidden;
+}
+.description p{
+	line-height:150%;
+	font-size: 12px;
+	color:#999;
+}
+p.oneLiner{
+	font-weight:bold;
+	font-size: 16px;
+}
+
+.projectTiles{
+	margin: 20px 0;
+}
+
+ul.projects li{
+	min-height: 300px;
+	margin-bottom: 15px;
+	-webkit-transition: width .6s ease-in-out;
+    -moz-transition: width .6s ease-in-out;
+    -o-transition: width .6s ease-in-out;
+    transition: width .6s ease-in-out;
+	outline:1px solid #000;
+}
+ul.projects li:nth-of-type(4) + li {  
+	margin-left:0!important;
+	clear: both;
+}
+
+
+ul.projects li:first-child{
+	margin-left: 0!important;
+}
+
+
+ul.projects li.last-child {
+	margin-right:0;
+}
+
+
+
+.projectText{
+	padding-left:5px;
+}
+
+.shadow {
+	-moz-box-shadow: -6px 6px #c6c6c6;
+	-webkit-box-shadow: -6px -6px #c6c6c6;
+	box-shadow: -6px 6px #c6c6c6;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#444444')";
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#444444');
+}
+
+
+/* ------------- FEI ADDED STYLING FOR FOOTER ------------- */
+
+.footer {
+	background: #1f1f1f;
+}
+
