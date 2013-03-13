@@ -53,7 +53,7 @@ get_header(); ?>
 	<div class="row">
 		<div class="span6 feature">
 			<a href="#" class="thumbnail">
-		      <?php the_post_thumbnail(get_post_type(), 'featured_photo' ); ?>
+		      <?php the_post_thumbnail(get_post_type(), 'thesis_projects' ); ?>
 		    </a>
 		</div>
 		<div class="span6 description">

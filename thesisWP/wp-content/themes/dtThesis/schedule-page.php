@@ -5,10 +5,10 @@ Template Name: Schedule Template
 ?>
 
 <?php get_header(); ?>
-			
-			<div id="content" class="clearfix row-fluid">
-			
-				<div id="main" class="span12 clearfix" role="main">
+<div class="secondaryNav">
+	
+</div>
+<div class="container">
 
 					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 					
@@ -33,7 +33,7 @@ Template Name: Schedule Template
 					
 					</article> <!-- end article -->
 					
-					<?php comments_template(); ?>
+					
 					
 					<?php endwhile; ?>	
 					
@@ -52,10 +52,6 @@ Template Name: Schedule Template
 					
 					<?php endif; ?>
 			
-				</div> <!-- end #main -->
-    
-				<?php //get_sidebar(); // sidebar 1 ?>
-    
-			</div> <!-- end #content -->
+</div>
 
 <?php get_footer(); ?>

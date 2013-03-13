@@ -498,8 +498,8 @@ if (class_exists('MultiPostThumbnails')) {
         );
     }
 /*ADD PROJECT THUMB SIZE */
-add_image_size( 'thesis_projects', 300, 300, true );
-add_image_size( 'featured_photo', 400, 500, true );
+add_image_size( 'thesis_projects', 500, 300, true );
+add_image_size( 'featured_photo', 400, 300, true );
 
 
 /*ADD POST TAGS TO DISPLAY*/

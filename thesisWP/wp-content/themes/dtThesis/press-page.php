@@ -5,10 +5,28 @@ Template Name: Press Page Template
 ?>
 
 <?php get_header(); ?>
-			
-			<div id="content" class="clearfix row-fluid">
-			
-				<div id="main" class="span12 clearfix" role="main">
+<div class="secondaryNav">
+	<div class="container">
+		<div class="row">
+			<div class="span9">
+				<div class="pressDescrip">
+					<p>Parsons The New School for Design presents the MFA Design + Technology Thesis Show 2013, composed of an exhibition, screening, and symposium by this year's degree program candidates.</p>
+					<button class="button">See the Schedule</button>
+				</div>
+			</div>
+			<div class="span3">
+				<div class="contactDetails">
+					<h2>Contact</h2>
+					<p>6 E. 16th Street, 12th Floor<br />
+					New York, NY 10011</p>
+					<p>P. (212) 229-8908<br />
+					press[at]amt.parsons.edu</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container">
 
 					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 					
@@ -33,7 +51,7 @@ Template Name: Press Page Template
 					
 					</article> <!-- end article -->
 					
-					<?php comments_template(); ?>
+				
 					
 					<?php endwhile; ?>	
 					
@@ -52,10 +70,6 @@ Template Name: Press Page Template
 					
 					<?php endif; ?>
 			
-				</div> <!-- end #main -->
-    
-				<?php //get_sidebar(); // sidebar 1 ?>
-    
-			</div> <!-- end #content -->
+</div>
 
 <?php get_footer(); ?>
