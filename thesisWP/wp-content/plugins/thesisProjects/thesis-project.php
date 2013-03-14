@@ -89,6 +89,12 @@ function display_student_meta_box( $student_details ) {
     $student_writing_spring = esc_html( get_post_meta( $student_details->ID, 'student_writing_spring', true ) );
     
     $student_bio = esc_html( get_post_meta( $student_details->ID, 'student_bio', true ) );
+    
+    $student_url = esc_html( get_post_meta( $student_details->ID, 'student_url', true ) );
+    $student_thesisurl = esc_html( get_post_meta( $student_details->ID, 'student_thesisurl', true ) );
+    $student_linked = esc_html( get_post_meta( $student_details->ID, 'student_linked', true ) );
+    $student_twitter = esc_html( get_post_meta( $student_details->ID, 'student_twitter', true ) );
+    
     ?>
     <table>
         <tr>
@@ -107,6 +113,14 @@ function display_student_meta_box( $student_details ) {
         <tr>
             <td style="width: 150px">Student Bio</td>
             <td><textarea name="thesis_project_student_bio" rows="5" cols="81"><?php echo $student_bio ?></textarea></td>
+        </tr>
+        <tr>
+            <td style="width: 150px">Student Web</td>
+            <td><input style="width: 200px;" type="text" size="80" placeholder="Personal Website" name="thesis_project_student_url" value="<?php echo $student_url; ?>" /><input type="text" placeholder="Thesis Website" style="width: 200px;"  size="80" name="thesis_project_student_thesisurl" value="<?php echo $student_thesisurl; ?>" /></td>
+        </tr>
+        <tr>
+            <td style="width: 150px">Student Social</td>
+            <td><input style="width: 200px;" type="text" size="80" placeholder="LinkedIn" name="thesis_project_student_linked" value="<?php echo $student_linked; ?>" /><input type="text" placeholder="Twitter" style="width: 200px;"  size="80" name="thesis_project_student_twitter" value="<?php echo $student_twitter; ?>" /></td>
         </tr>
     </table>
     <?php
@@ -143,6 +157,18 @@ function add_student_details_fields( $student_details_id, $student_details ) {
             update_post_meta( $student_details_id, 'student_writing_spring',$_POST['thesis_project_writing_spring'] );
         }
         
+        if ( isset( $_POST['thesis_project_student_url'] ) && $_POST['thesis_project_student_url'] != '' ) {
+            update_post_meta( $student_details_id, 'student_url',$_POST['thesis_project_student_url'] );
+        }
+        if ( isset( $_POST['thesis_project_student_thesisurl'] ) && $_POST['thesis_project_student_thesisurl'] != '' ) {
+            update_post_meta( $student_details_id, 'student_thesisurl',$_POST['thesis_project_student_thesisurl'] );
+        }
+        if ( isset( $_POST['thesis_project_student_linked'] ) && $_POST['thesis_project_student_linked'] != '' ) {
+            update_post_meta( $student_details_id, 'student_linked',$_POST['thesis_project_student_linked'] );
+        }
+        if ( isset( $_POST['thesis_project_student_twitter'] ) && $_POST['thesis_project_student_twitter'] != '' ) {
+            update_post_meta( $student_details_id, 'student_twitter',$_POST['thesis_project_student_twitter'] );
+        }
         
         
         
